@@ -16,6 +16,6 @@ while True:
         cv2.putText(frame,f'face detected:{len(faces)}',(10,30),cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,0),2)
         cv2.imshow("Face tracking and counting",frame)
         if cv2.waitKey(1) == ord('q'):
-            break
+            break   
 cap.release()
 cv2.destroyAllWindows()
